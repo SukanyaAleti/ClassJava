@@ -16,7 +16,7 @@ public class PolymorphismExample {
         Vehicle v1 = new Vehicle();
         Car c1 = new Car();
 
-        // Parent reference pointing to the Parent object
+        
         Vehicle vehicle = v1;
         vehicle.display();
 
