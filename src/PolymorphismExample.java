@@ -18,11 +18,10 @@ public class PolymorphismExample {
 
         // Parent reference pointing to the Parent object
         Vehicle vehicle = v1;
-        vehicle.display();  // Output: This is the Parent class.
+        vehicle.display();
 
-        // Parent reference pointing to the Child object
         vehicle = c1;
-        vehicle.display();  // Output: This is the Child class.
+        vehicle.display();
     }
 }
 
