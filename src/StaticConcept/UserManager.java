@@ -8,7 +8,7 @@ public class UserManager {
         }
 
         static {
-             userCount = 0;
+            userCount = 0;
         }
         public static void addUser() {
             userCount++;
