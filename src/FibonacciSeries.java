@@ -9,7 +9,7 @@ public class FibonacciSeries {
 
         for (int i = 2; i < N; i++) {
             int nextTerm = firstTerm + secondTerm;
-            System.out.print(nextTerm + " ");
+             System.out.print(nextTerm + " ");
 
             firstTerm = secondTerm;
             secondTerm = nextTerm;
