@@ -7,7 +7,7 @@ public class MinMaxArray {
 
             for (int i = 1; i < numbers.length; i++) {
                 if (numbers[i] < smallest) {
-                    smallest = numbers[i];
+                     smallest = numbers[i];
                 }
                 if (numbers[i] > largest) {
                     largest = numbers[i];

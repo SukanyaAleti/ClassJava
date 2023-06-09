@@ -1,6 +1,6 @@
 package ConstructorConcept;
 
-public class Person {
+public class  Person {
     protected String name; // Instance variable in the parent class
 
     public Person(String name) {

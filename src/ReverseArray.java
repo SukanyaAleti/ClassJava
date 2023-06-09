@@ -13,7 +13,7 @@ public class ReverseArray {
             start++;
             end--;
         }
-        for (int i = 0; i < n; i++) {
+        for(int i = 0; i < n; i++) {
             System.out.print(numbers[i] + " ");
         }
     }

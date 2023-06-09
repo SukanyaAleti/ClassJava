@@ -10,7 +10,7 @@ public class PersonAge {
                 System.out.println("Kid");
             } else if (age >= 13 && age <= 19) {
                 System.out.println("Teen");
-            } else{
+            } else {
                 System.out.println("Adult");
             }
         }
