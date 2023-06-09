@@ -6,7 +6,7 @@ public class Method1 {
             UserManager.addUser();
             UserManager.addUser();
             int count = UserManager.getUserCount();
-            System.out.println("Current user count: " + count);
+             System.out.println("Current user count: " + count);
         }
     }
 
