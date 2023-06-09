@@ -7,7 +7,7 @@ final class Mobile {
          this.price = price;
      }
     final void displayPrice() {
-        System.out.println("The price of mobile is $" + price);
+         System.out.println("The price of mobile is $" + price);
     }
 
 }
