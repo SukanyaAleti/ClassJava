@@ -18,7 +18,7 @@ package June06;
         System.out.println("The reverse each word in a sentence : " + ReverseWord(sentence));
     }
     public static String ReverseWord(String sentence) {
-         String[] a = sentence.split(" ");
+        String[] a = sentence.split(" ");
         String newStr = "";
         int i = 0;
         while (i < a.length) {

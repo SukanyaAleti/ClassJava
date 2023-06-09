@@ -9,7 +9,7 @@ public class VowelCount {
             int vCount= 0;
             for(int i = 0; i<s11.length();i++){
                 char x = s11.charAt(i);
-                if(x=='A'|| x=='E'|| x=='I'|| x=='O'|| x=='U'|| x=='a'|| x=='e'|| x=='i'|| x=='o'|| x =='u'){
+                 if(x=='A'|| x=='E'|| x=='I'|| x=='O'|| x=='U'|| x=='a'|| x=='e'|| x=='i'|| x=='o'|| x =='u'){
                     vCount++;
                 }
             }
