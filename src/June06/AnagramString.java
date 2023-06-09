@@ -8,9 +8,9 @@ public class AnagramString {
         String str1 = "State";
         String str2 = "Taste";
         if (CheckAnagram(str1, str2)) {
-            System.out.println("Two strings are Anagrams.");
+             System.out.println("Two strings are Anagrams.");
         } else {
-            System.out.println("Two strings are not Anagrams.");
+             System.out.println("Two strings are not Anagrams.");
         }
 
     }
