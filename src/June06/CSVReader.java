@@ -16,7 +16,7 @@ public class CSVReader {
            while ((line = br.readLine()) != null) {
                String[] values = line.split(",");
                Student student = new Student(values[0], values[1], Double.parseDouble(values[2]));
-                students.add(student);
+               students.add(student);
            }
            Collections.sort(students);
 
